@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content:"";
+    background-color: rgb(10, 0, 28);
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* logo and image */
+#logo{
+    margin:10px 10px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 40px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+/* list styling */
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    font-family: cursive;
+    /* justify-content: space-evenly;
+    width: 90%; */
+}
+#navbar ul li{
+    font-size: 1.3rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color: aliceblue;
+    display: block;
+    padding: 3px 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+/* #navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+} */
+#navbar ul li a:hover{
+    background-color: aliceblue;
+    text-decoration: none;
+    color: rgb(4, 24, 51);
+    border:2px dotted rgb(4, 24, 51) ;
+    box-sizing: border-box;
+
+}
+
+/* Home section */
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+
+
+}
+#home::before{
+    content:"";
+    background:url(./code-wallpaper-4.png.crdownload);
+    position: absolute;
+    height: 600px;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+    top: 0px;
+}
+.btn{
+    margin: 20px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 7px 7px;
+    color: rgb(228, 231, 235);
+    background-color: rgb(8, 3, 40);
+    border:2px dotted white;
+    font-family:cursive;
+    cursor: pointer;
+    text-decoration:none ;
+
+}
+.btn:hover{
+    margin: 20px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 7px 7px;
+    background-color: rgb(228, 231, 235);
+    color: rgb(8, 3, 40);
+    border:2px dotted rgb(8, 3, 40);
+    font-family:cursive;
+    text-decoration: none;
+
+}
+.thetop{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family:cursive;
+    margin: 5px 5px;
+    /* background-color: rgb(100, 206, 251,0.5); */
+    border-radius: 30px;
+    padding:20px 20px 20px 20px;
+
+}
+.thebottom{
+    color: rgb(246, 245, 249);
+    font-size: 30px;
+    font-family:cursive;
+    background-color: rgb(8, 3, 40);
+    padding: 5px;
+    border-radius: 20px;
+
+
+}
+/* About us  */
+#aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    height: 450px;
+    width: 600px;
+    background-color: rgb(10, 0, 28,1);
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 210px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(10, 0, 28);
+}
+#text:hover{
+    box-shadow: 5px 5px 5px rgb(10, 0, 28);
+
+}
+#pic {
+    height: 500px;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 210px;
+
+
+}
+#pic img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5000000000px;
+}
+#abhead {
+    font-family: cursive;
+    font-size: 50px;
+    /* text-shadow: 5px 5px 5px rgb(255, 255, 255); */
+    color: rgb(254, 254, 254);
+}
+.para {
+    text-indent: 10px;
+    text-align: justify;
+    letter-spacing: 1px; 
+    font-family: cursive; 
+    font-size: 20px;
+    color: rgba(245, 255, 253,0.9);
+}
+/* Members */
+#membersinfo{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 150px;    
+    justify-content: space-around;
+}
+#akshu {
+    background-color: rgb(10, 0, 28);
+    height: 100px;
+    width: 100px;
+}
+#vinu {
+    background-color: rgb(10, 0, 28);
+    height: 100px;
+    width: 100px;
+}
+#vedu {
+    background-color: rgb(10, 0, 28);
+    height: 100px;
+    width: 100px;
+}
+#hmembers {
+    color: rgb(10, 0, 28);
+    font-size: 50px;
+    font-family:cursive;
+    margin: 5px 5px;
+    border-radius: 30px;
+    padding:10px 10px 10px 10px;
+    text-align: center;
+
+}
+#akshu img{
+    height: 300px;
+    width: 300px;
+    
+}
+#vinu img{
+    height: 300px;
+    width: 300px;
+    
+ 
+}
+#vedu img{
+    max-width: 300px;
+    max-height: 300px;
+
+}
+.ourpics {
+    border-radius: 50%;
+    border: 5px solid rgb(10, 0, 28);
+}
+.ourpics:hover{
+    border-radius: 50%;
+    border: 5px solid rgb(10, 0, 28);
+    box-shadow: 5px 5px 5px rgb(10, 0, 28);
+}
+.profile{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.desig {
+    font-family: cursive;
+    font-size: 30;
+    color: rgb(30, 2, 83);
+}
+#join {
+    background-color: rgb(10, 0, 28,1);
+    margin-top: 400px;
+    width: 100%;
+    height: 700px;
+}
+.joinhead {
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+/* JOin us  */
+#formbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:340px;
+}
+#formbox,input,label{
+    width: 100%;
+    padding: 0.5rem;
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#formbox form{
+    width: 35%;
+}
+#formbox input{
+    color: black;
+    font-family: cursive;
+}
+#formbox textarea{
+    font-family: cursive;
+    color:black;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#formbox button{
+    font-family: cursive;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-left: 185px;
+
+}
+#formbox button:hover{
+    font-family: cursive;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-left: 185px;
+    background-color: rgb(10, 0, 28);
+    color: aliceblue;
+    border: 3px solid white;
+
+}
+/* Contactus */
+#contact{
+    background-color: rgba(255, 255, 255);
+    width: 100%;
+    height:70px;
+}
+#contact h1{
+    color: rgb(10, 0, 28);
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+#contactinfo {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 120px;
+
+}
+#contactinfo h1{
+    font-family: cursive;
+    font-size:25px;
+    color: rgb(10, 0, 28);
+}
+#center {
+    text-align: center;
+    color:azure;
+    background-color: rgb(10, 0, 28);
+}

@@ -24,7 +24,7 @@
     <section id="home">
         <h1 class="thetop">"We Coders"</h1>
         <h2 class="thebottom"><i>Success is best when it's shared</i> </h2>
-        <button class="btn">Join Now</button>
+        <a href="#join"> <button class="btn">Join Now</button></a>
     </section>
     <section id="aboutus">
         <div id="text">
@@ -127,5 +127,29 @@
     <footer id="center">
         Copyright &copy; www.wecoders.org  All rights reserved!
     </footer>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDwq-hJZN4CHx0BocOaCZMS7LESIP0Sb7Y",
+          authDomain: "we-coders.firebaseapp.com",
+          projectId: "we-coders",
+          storageBucket: "we-coders.appspot.com",
+          messagingSenderId: "302077807764",
+          appId: "1:302077807764:web:c45f9a32085cf68505b881",
+          measurementId: "G-Q1JDPGV1WW"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        console.log(app)
+      </script>
 </body>
 </html>

@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -53,6 +55,11 @@ html{
     box-sizing: border-box;
 
 }
+.dec{
+    background-color: aliceblue;
+    color: black;
+    border-radius:10px;
+}
 /* #navbar ul li a:hover{
     color: black;
     background-color: aliceblue;
@@ -61,7 +68,7 @@ html{
     background-color: aliceblue;
     text-decoration: none;
     color: rgb(4, 24, 51);
-    border:2px dotted rgb(4, 24, 51) ;
+    border:2px solid rgb(4, 24, 51) ;
     box-sizing: border-box;
     padding: 1px 58px;
 
@@ -190,6 +197,18 @@ html{
     margin-right: 150px;    
     justify-content: space-around;
 }
+#othermem {
+    display: flex;
+    margin-top: 400px;
+    margin-right: 150px; 
+    justify-content: space-around;
+    height: 80px;
+
+}
+#vansh{
+    height: 300px;
+    width: 300px;
+}
 #akshu {
     background-color: rgb(10, 0, 28);
     height: 100px;
@@ -231,9 +250,27 @@ html{
     max-height: 300px;
 
 }
+#vansh {
+    max-width: 100px;
+    max-height: 100px;
+    background-color: rgb(10, 0, 28);
+}
+#muskan {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 0, 28);
+
+}
+#nancy{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 0, 28);
+}
 .ourpics {
     border-radius: 50%;
     border: 5px solid rgb(10, 0, 28);
+    height: 300px;
+    width: 300px;
 }
 .ourpics:hover{
     border-radius: 50%;
@@ -249,6 +286,7 @@ html{
     font-family: cursive;
     font-size: 30;
     color: rgb(30, 2, 83);
+    text-align: center;
 }
 #join {
     background-color: rgb(10, 0, 28,1);
@@ -337,3 +375,4 @@ html{
     color:azure;
     background-color: rgb(10, 0, 28);
 }
+
